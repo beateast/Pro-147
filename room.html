@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Room design</title>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-sky src="room.jpg"></a-sky>
+
+            <a-assests>
+                <a-asset-item id="table" src="./models/Smashing Krunk (1).glb"></a-asset-item>
+                <a-asset-item id="boy" src="./models/Neat Sango.glb"></a-asset-item>
+            </a-assests>
+
+            <a-entity gltf-model="#table" position="5 0 0" rotation="0 90 0" scale="0.1 0.1 0.1"></a-entity>
+            <a-entity gltf-model="#boy" position="7 0 0" rotation="0 90 0" scale="0.2 0.2 0.2"></a-entity>
+        </a-scene>
+    </body>
+</html>
